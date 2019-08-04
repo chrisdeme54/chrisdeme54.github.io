@@ -5,6 +5,7 @@ html,body{
 .lead{
     text-align: center;
 }
+
 .jumbotron-fluid
 {
     position: relative;
@@ -26,15 +27,19 @@ html,body{
 .jumbotron-fluid {background: transparent url('watch1.jpg') no-repeat center center /cover; 
     color: antiquewhite;
 }
+
+#content-wrap:active{
+    position: inherit;
+    
 /* Page layout */
 #page-container {
     position: relative;
     min-height: 12vh;
   }
 
-.product-filter{
+/* .product-filter{
     display: flex;
-}
+} */
 
 .card > .card-img-top{
     display: flex;
