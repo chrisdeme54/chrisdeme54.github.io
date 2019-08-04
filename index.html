@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!--Boot Strap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body class="d-flex flex-column">
+    <div id="page-container">
+        <div id="content-wrap">
+            <header>
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <div class="profile border-md-right">
+                        <a class="navbar-brand" href="#">
+                            <i class="fas fa-watch"></i>
+                            For Watch Lovers
+                        </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse navbar-expand-md" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active ml-4 ml-md-6">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown ml-4 ml-md-6">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Products
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#"><strong>Watch</strong></a>
+                                    <a class="dropdown-item subMenu" href="product.html">&nbsp; Products</a>
+                                    <a class="dropdown-item subMenu" href="#">&nbsp; Sub2</a>
+                                    <a class="dropdown-item subMenu" href="#">&nbsp; Sub3</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item " href="#"><strong>Watch Accessories</strong></a>
+                                    <a class="dropdown-item subMenu" href="#">&nbsp; Sub1</a>
+                                    <a class="dropdown-item subMenu" href="#">&nbsp; Sub2</a>
+                                    <a class="dropdown-item subMenu" href="#">&nbsp; Sub3</a>
+                                </div>
+                            </li>
+                            <li class="nav-item ml-4 ml-md-6">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item ml-4 ml-md-6">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        </div>
+    </div>
+
+    <main>
+        <!--Jumbo-->
+        <div class="jumbotron jumbotron-fluid pt-4">
+            <div class="container pt-4">
+                <h1 class="display-6" id="jumbo">The Pre-owned Watch Specialist</h1>
+                <p class="lead pt-1"> <a class="btn btn-primary btn-lg" href="#" role="button">Shop Now</a>
+                </p>
+            </div>
+        </div>
+        <!-- End of jumbo-->
+        <!-- 
+        <div class="product pt-3">
+            <nav class="product-filter">
+
+                <h2>Watches</h2>
+
+                <div class="sort">
+
+                    <div class="collection-sort">
+                        <label>Filter by:</label>
+                        <select>
+                            <option value="/">All Watches</option>
+                        </select>
+                    </div>
+
+                    <div class="collection-sort">
+                        <label>Sort by:</label>
+                        <select>
+                            <option value="/">Featured</option>
+                        </select>
+                    </div>
+
+                </div>
+
+            </nav>
+        </div> -->
+<!--Start of card layout-->
+       
+    </main>
+        <section id="gallery">
+        <div class="row">
+                <div class="col-sm-4 p-1">
+                    <div class="card text-center" >
+                        <img class="card-img-top" src="watch3.jpg" alt="tissot">
+                        <div class="card-body">
+                            <h6 class="card-title">Shop Our Tissot Collection</h6>
+                            <a href="#" class="btn btn-primary">Shop</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 p-1">
+                    <div class="card text-center">
+                            <img class="card-img-top" src="watch2.jpg" alt="Rolex">
+                        <div class="card-body">
+                            <h6 class="card-title"> Shop Our Rolex Collection</h6>
+                            <a href="#" class="btn btn-primary">Shop</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 p-1">
+                        <div class="card text-center">
+                                <img class="card-img-top" src="watch1.jpg" alt="Patek">
+                            <div class="card-body">
+                                <h6 class="card-title">Shop Are Patek Philippe Collection</h6>
+                                <a href="#" class="btn btn-primary">Shop</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!--End of card layout-->
+        </section>
+
+    <script src="gal.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
