@@ -9,8 +9,8 @@ html,body{
 .jumbotron-fluid
 {
     position: relative;
-    border-radius: 5px;
-    box-shadow: 0px 0px 20px #555;
+    border-radius: 1px;
+    box-shadow: 0px 0px 10px #555;
     align-content: center;
     width: auto;
 }
@@ -30,7 +30,7 @@ html,body{
 
 #content-wrap:active{
     position: inherit;
-    
+}
 /* Page layout */
 #page-container {
     position: relative;
