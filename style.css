@@ -2,10 +2,18 @@ html,body{
     width: 100%;
     height: 100%;
 }
+body{
+    margin: auto 0;
+}
+
+body { padding-top: 40px; }
+@media screen and (max-width: 768px) {
+    body { padding-top: 0px; }
+}
 .lead{
     text-align: center;
 }
-
+/* Jumbotron Layout */
 .jumbotron-fluid
 {
     position: relative;
@@ -28,25 +36,37 @@ html,body{
     color: antiquewhite;
 }
 
-/* #content-wrap:active{
-    position: inherit;
-} */
+
 /* Page layout */
 #page-container {
     position: relative;
     padding-bottom: 1%;
   }
 
-/* .product-filter{
-    display: flex;
-} */
-
+  /* Card Layout */
 .card > .card-img-top{
     display: flex;
     justify-content: center;
 }
 
-body { padding-top: 40px; }
-@media screen and (max-width: 768px) {
-    body { padding-top: 0px; }
+#gallery{
+    padding-bottom: 20px;
+}
+
+/* Content */
+.content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    /* grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); */
+
+}
+
+.pZone > h6{
+    text-align: center;
+}
+
+.pZone {
+    text-align: center;
+    margin-left: 10px;
+    padding-bottom: 10px;
 }
