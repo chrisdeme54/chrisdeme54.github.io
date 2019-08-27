@@ -70,10 +70,16 @@ body { padding-top: 40px; }
     padding-bottom: 10px;
 }
 
-/* Footer */
-.zone{
-    position: inherit;
+@media (max-width: 640px) 
+{
+    .content-wrapper
+    {
+        display: none;
+    }
 }
+
+/* Footer */
+
 .footer-nav {
     display: flex;
     list-style: none;
@@ -103,7 +109,7 @@ a {
     text-decoration: none;
 }
 
-button back to top
+/* button back to top */
 #myBtn {
     display: none;
     bottom: 20px;
