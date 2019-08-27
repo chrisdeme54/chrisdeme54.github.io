@@ -58,7 +58,6 @@ body { padding-top: 40px; }
     display: flex;
     justify-content: space-between;
     /* grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); */
-
 }
 /* Text content */
 .pZone > h6{
@@ -104,7 +103,7 @@ a {
     text-decoration: none;
 }
 
-/* button back to top */
+/* button back to top
 #myBtn {
     display: none;
     bottom: 20px;
@@ -120,4 +119,4 @@ a {
   
   #myBtn:hover {
     background-color: #555;
-  }
+  } */
