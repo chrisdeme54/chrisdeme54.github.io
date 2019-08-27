@@ -72,7 +72,9 @@ body { padding-top: 40px; }
 }
 
 /* Footer */
-
+.zone{
+    position: inherit;
+}
 .footer-nav {
     display: flex;
     list-style: none;
@@ -80,7 +82,6 @@ body { padding-top: 40px; }
     /* font-size: 0.7em; */
     background-color: #555;
     margin-top: 20px;
-    position: fixed;
 }
 
 @media only screen and (max-width: 600px) {
