@@ -4,6 +4,7 @@ html,body{
 }
 body{
     margin: auto 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body { padding-top: 40px; }
@@ -70,7 +71,7 @@ body { padding-top: 40px; }
     padding-bottom: 10px;
 }
 
-@media (max-width: 640px) 
+@media (max-width:640px) 
 {
     .content-wrapper
     {
@@ -126,3 +127,50 @@ a {
   #myBtn:hover {
     background-color: #555;
   }
+
+  /* Carsouel on display on mobile */
+  @media (min-width: 768px) 
+{
+    #carouselId
+    {
+        display: none;
+    }
+}
+
+/* Flex box grid panel */
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+    grid-gap: 20px;
+}
+
+.box {
+   padding: 25px;
+    margin: 10px;
+}
+
+.box > img {
+    width: 100%;
+}
+
+.box:hover {
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+
+.box > img {
+    width: 100%;
+    height: auto;
+}
+
+/* Grid displayed removed for mobile */
+
+@media (max-width: 830px) 
+{
+    .grid-wrapper
+    {
+        display: none;
+    }
+}
